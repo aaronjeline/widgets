@@ -1,0 +1,10 @@
+
+body {
+    color: white;
+    background: grey;
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+}

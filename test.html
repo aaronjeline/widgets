@@ -1,1 +1,19 @@
-<h1>Hello!</h1>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello!</h1>
+    <div class="container">
+        Current value: <div id="counter">0</div>
+        <button onClick="clicked()">Click Me!</button>
+    </div>
+    <script>
+        function clicked() {
+            v = document.getElementById("counter");
+            v.textContent = parseInt(v.textContent) + 1;
+        }
+    </script>
+
+</body>
+
